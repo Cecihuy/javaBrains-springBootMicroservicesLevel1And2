@@ -1,4 +1,4 @@
-package io.javabrains.movieinfoservice.models.resources;
+package io.javabrains.movieinfoservice.resources;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
