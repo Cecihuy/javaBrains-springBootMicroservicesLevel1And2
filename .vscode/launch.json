@@ -1,0 +1,35 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MovieCatalogServiceApplication",
+            "request": "launch",
+            "mainClass": "io.javabrains.moviecatalogservice.MovieCatalogServiceApplication",
+            "projectName": "movie-catalog-service"
+        },
+        {
+            "type": "java",
+            "name": "MovieInfoServiceApplication",
+            "request": "launch",
+            "mainClass": "io.javabrains.movieinfoservice.MovieInfoServiceApplication",
+            "projectName": "movie-info-service"
+        },
+        {
+            "type": "java",
+            "name": "RatingsDataServiceApplication",
+            "request": "launch",
+            "mainClass": "io.javabrains.ratingsdataservice.RatingsDataServiceApplication",
+            "projectName": "ratings-data-service"
+        }
+    ]
+}
